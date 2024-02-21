@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #057692;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #057692;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #074963;
+   } /*Cambiar el fondo mientras el cursos esta sobre el item*/
